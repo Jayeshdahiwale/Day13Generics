@@ -13,7 +13,11 @@ public class MaxTest<T extends Comparable<T>> {
 				inputArray[i+1] = inputArray[i];
 			}
 		}
-		System.out.println(inputArray[inputArray.length-1]);
+		printMax();
+	}
+	
+	public void printMax() {
+		System.out.println(inputArray[inputArray.length - 1]);
 	}
 	
 	
