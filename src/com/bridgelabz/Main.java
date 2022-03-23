@@ -4,14 +4,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		MaxTest test1 = new MaxTest();
-		String[] inputArray = {"Apple","Peach","Banana"};
-	    test1.maxElement(inputArray);
-		String[] inputArray1 = {"Peach","Banana","Apple"};
-		test1.maxElement(inputArray1);
-		String[] inputArray2 = {"Banana","Peach","Apple"};
-		test1.maxElement(inputArray2);
+		Integer[] i = {56,30,70};
+		String[] s = {"Peach","Banana","Apple"};
+		Float[] f = {56f,30f,70f};
+		new MaxTest(i).maxElement();
+		new MaxTest(s).maxElement();
+		new MaxTest(f).maxElement();			
 	}
-	
-
 }
