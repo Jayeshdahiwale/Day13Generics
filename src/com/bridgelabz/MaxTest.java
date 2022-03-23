@@ -16,7 +16,7 @@ public class MaxTest<T extends Comparable<T>> {
 		printMax();
 	}
 	
-	public void printMax() {
+	private void printMax() {
 		System.out.println(inputArray[inputArray.length - 1]);
 	}
 	
